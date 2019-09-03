@@ -26,7 +26,7 @@ ARGS:
 
 Example: `./pcap2udp some_file.cap 42 127.0.0.1:0 127.0.0.1:1234`
 
-The file should probably be pre-filtered in Wireshark. Wireshark can also rell the required offset (`skip_bytes`) inside packets.
+The file should probably be pre-filtered in Wireshark. Wireshark can also help determining required offset (`skip_bytes`) inside packets. Typical RTP in UDP in IPv4 in Ethernet is `42`.
 
 # Prebuilt executables
 
