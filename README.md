@@ -2,6 +2,8 @@
 
 A simple tool to read microsecond-based pcap file frame by frame, remove N first bytes for each, then send each to one specified UDP socket, respecting timestamps.
 
+Licence=Apache2.0 or MIT.
+
 # Usage
 
 ```

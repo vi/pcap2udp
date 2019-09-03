@@ -3,6 +3,12 @@ name = "pcap2udp"
 version = "0.1.0"
 authors = ["Vitaly _Vi Shukela <vi0oss@gmail.com>"]
 edition = "2018"
+description = "A simple tool to read microsecond-based pcap file frame by frame, remove N first bytes for each, then send each to one specified UDP socket, respecting timestamps."
+readme = "README.md"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/vi/pcap2udp"
+keywords = ["Wireshark", "udp", "pcap", "dump", "replay"]
+categories = ["network-programming"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
